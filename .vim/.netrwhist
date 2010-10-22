@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/prene/comptools-arm-1.20090717.1/buildroot/toolchain/binutils/2.19'
+let g:netrw_dirhist_2='/home/prene'
+let g:netrw_dirhist_3='/home/prene/Downloads'
+let g:netrw_dirhist_4='/usr/local/WowzaMediaServer-2.1.2/conf/iwatchdemo'
+let g:netrw_dirhist_5='/home/prene/Desktop/wowza/trunk/src/iWatchModule/src/.svn'
+let g:netrw_dirhist_6='/usr/local/WowzaMediaServer-2.1.2/conf/iwatchtest'
+let g:netrw_dirhist_7='/usr/local/WowzaMediaServer-2.1.2/content'
+let g:netrw_dirhist_8='/usr/share/php/Zend/Gdata/YouTube'
+let g:netrw_dirhist_9='/home/prene/.ssh'
