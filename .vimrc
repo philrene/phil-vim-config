@@ -17,6 +17,7 @@ set incsearch
 set hlsearch
 colorscheme delek
 
-
+cmap W w
+cmap Q q
 set backupdir=~/.vim/vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim/vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
