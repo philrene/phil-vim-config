@@ -19,3 +19,4 @@ colorscheme delek
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 set backupdir=~/.vim/vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim/vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+:autocmd VimEnter *.c :Tlist
