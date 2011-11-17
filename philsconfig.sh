@@ -11,4 +11,4 @@ cp ./pathogen.vim/plugin/pathogen.vim ../.vim/autoload/pathogen.vim
 cd ..
 rm -rf tmp
 
-cp -Rf .vim .vimrc ~/
+cp -Rf .vim .vimrc .screenrc .profile ~/
