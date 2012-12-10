@@ -15,8 +15,12 @@ set smartcase
 set title
 set incsearch
 set hlsearch
-colorscheme delek
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set smarttab
+set expandtab
+colorscheme colorer
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 set backupdir=~/.vim/vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim/vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-:autocmd VimEnter *.c :Tlist

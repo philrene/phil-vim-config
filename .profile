@@ -29,3 +29,22 @@ if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
 	  return 0
   }
   complete -F _complete_ssh_hosts ssh
+
+  export CLICOLOR=1
+  export LSCOLORS=Gxfxcxdxbxegedabagacad
+
+  export NODE_PATH=/usr/local/lib/node_modules
+  export PATH=$PATH:/Users/prene/Documents/Phil/ANDROID/android-sdk-macosx/tools
+  export PATH=$PATH:/Users/prene/Documents/Phil/ANDROID/android-sdk-macosx/platform-tools
+  export PATH=$PATH:/usr/local/Cellar/postgresql/9.1.3/bin/
+
+  alias py='python'
+  alias g='git'
+  alias l='ls -a'
+
+  export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.4
+  export M2=$M2_HOME/bin
+  export PATH=$PATH:$M2
+  export ANDROID_HOME=/Users/prene/Documents/Phil/ANDROID/android-sdk-macosx
+  export JAVA_HOME=/Library/Java/Home/
+  export PATH=$PATH:/usr/local/sbin
