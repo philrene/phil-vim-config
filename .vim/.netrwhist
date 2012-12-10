@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/prene/Documents/WHERECLOUD/REPOS/appmetrics/appmetrics-backend/models'
+let g:netrw_dirhist_2='/Users/prene/Documents/WHERECLOUD/REPOS/appmetrics/appmetrics-backend/scripts'
+let g:netrw_dirhist_3='/Users/prene/Documents/WHERECLOUD/REPOS/appmetrics/appmetrics-backend/models'
+let g:netrw_dirhist_4='/Users/prene/Documents/WHERECLOUD/REPOS/appmetrics/appmetrics-backend'
+let g:netrw_dirhist_5='/Users/prene/Documents/WHERECLOUD/REPOS/appmetrics/appmetrics-backend/config/environnement'
+let g:netrw_dirhist_6='/Users/prene/Documents/WHERECLOUD/REPOS/appmetrics/appmetrics-backend/frontend'
+let g:netrw_dirhist_7='/Users/prene/Documents/WHERECLOUD/REPOS/appmetrics/appmetrics-backend/tracker'

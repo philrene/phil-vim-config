@@ -1,0 +1,47 @@
+[user]
+	name = Phil Rene
+	email = phil@wherecloud.com
+
+[alias]
+	lo  = log --oneline
+    lg  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	lwg = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s %Cgreen(%cr)%Creset' --date=relative
+	st = status
+	p = push
+	sm = submodule
+	smstart = submodule update
+	sminit = submodule init
+	smup = submodule update
+	smpull = submodule foreach git pull origin master 
+	mgnff = merge --no-ff --summary
+	cm = commit -a -v
+	co = checkout
+	br = branch
+	ci = commit -v
+	last = log -1 HEAD
+	delete-remote = push origin
+	whatchanged-blame = whatchanged -p --pretty=%ad
+	blame = blame -b
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+
+[color "branch"]
+	current = yellow reverse
+	remote = green bold
+	local = blue bold
+
+[color "diff"]
+	meta = blue bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+
+[commit]
+	verbose = true
+
+[push]
+	default = tracking
