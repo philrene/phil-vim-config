@@ -1,12 +1,13 @@
+filetype off
+call pathogen#runtime_append_all_bundles()
 syntax on
-filetype on
 filetype plugin on
 filetype indent on
+filetype plugin indent on
 set nocompatible
 set smartindent
 set ignorecase
 set hidden 
-call pathogen#runtime_append_all_bundles()
 set nu
 let mapleader =","
 set history=1000
@@ -24,3 +25,4 @@ colorscheme colorer
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 set backupdir=~/.vim/vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim/vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set viminfo+=!
