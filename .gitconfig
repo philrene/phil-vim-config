@@ -1,10 +1,13 @@
 [user]
 	name = Phil Rene
-	email = phil@wherecloud.com
+	email = philippe.rene@cenx.com
+
+[core]
+   editor = "/usr/bin/vim"
 
 [alias]
 	lo  = log --oneline
-    lg  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+    lg  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --
 	lwg = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s %Cgreen(%cr)%Creset' --date=relative
 	st = status
 	p = push
@@ -16,12 +19,22 @@
 	mgnff = merge --no-ff --summary
 	cm = commit -a -v
 	co = checkout
-	br = branch
 	ci = commit -v
+	br = branch
+	brnm = branch --no-merged
+	brm = branch --merged
+    cp = commit -p -v 
 	last = log -1 HEAD
-	delete-remote = push origin
-	whatchanged-blame = whatchanged -p --pretty=%ad
 	blame = blame -b
+    ds = diff --staged
+    fup = log --since '1 day ago' --oneline --author philippe.rene@cenx.com
+    l = log 
+    lh = log --graph
+    la = !git lh --date-order --all 2> /dev/null
+    lb = log --graph --simplify-by-decoration
+    lba = !git lb --all 
+    h = !git --no-pager log --graph -n 15
+    a = !git --no-pager la -n 15
 
 [color]
 	diff = auto
@@ -44,4 +57,9 @@
 	verbose = true
 
 [push]
-	default = tracking
+	default = current
+
+[merge]
+    tool = opendiff
+
+;; git branch --merged | grep -v "\*" | xargs -n 1 git branch -d
